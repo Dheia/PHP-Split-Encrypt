@@ -1,5 +1,6 @@
-# PHP-Split-Encrypt
+# PHP-Split&Encrypt
 Packs PHP code to avoid "falsely" detecting it as a malware.
+Like for example a nice [reverse shell code](https://github.com/GramThanos/php-smart-reverse-shell).
 
 ## About
 This code splits the given PHP code on the SPLIT&ENCRYPTme flag and 
@@ -13,6 +14,10 @@ for damage caused by this tool.  If these terms are not acceptable to you, then
 do not use this tool.
 
 ## Excecution
+Get the tool:
+```shell
+wget -O splite&encrypt.php https://raw.githubusercontent.com/GramThanos/PHP-Split-Encrypt/main/splite%26encrypt.php
+```
 
 ```shell
 php splite&encrypt.php input.php output.php
