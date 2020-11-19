@@ -16,7 +16,7 @@ do not use this tool.
 ## Excecution
 Get the tool:
 ```shell
-wget -O split-encrypt.php https://raw.githubusercontent.com/GramThanos/PHP-Split-Encrypt/main/split-encrypt.php
+wget -O split-encrypt.php https://github.com/GramThanos/PHP-Split-Encrypt/releases/download/v0.1/split-encrypt.php
 ```
 
 ```shell
