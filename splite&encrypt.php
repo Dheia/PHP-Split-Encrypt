@@ -43,7 +43,7 @@ $hash = hash('sha256', $password, true);
 $iv = openssl_random_pseudo_bytes(16);
 $ciphercode = openssl_encrypt($code[1], 'AES-256-CBC', $hash, OPENSSL_RAW_DATA, $iv);
 // Save output to file
-$r = file_put_contents($output, $code[0] . "SPLIT&ENCRYPTed\n" . "eval(openssl_decrypt(\n\t\tbase64_decode('" . base64_encode($ciphercode) . "'),\n\t'AES-256-CBC',\n\tbase64_decode('" . base64_encode($hash) . "'),\n\tOPENSSL_RAW_DATA,\n\tbase64_decode('" . base64_encode($iv) . "')\n));\n");
+$r = file_put_contents($output, $code[0] . "SPLIT&ENCRYPTed\n" . "eval(openssl_decrypt(\n\tbase64_decode('" . base64_encode($ciphercode) . "'),\n\t'AES-256-CBC',\n\tbase64_decode('" . base64_encode($hash) . "'),\n\tOPENSSL_RAW_DATA,\n\tbase64_decode('" . base64_encode($iv) . "')\n));\n");
 if ($r === False)
 	echo("Failed to save as " . $output . "\n");
 else
