@@ -18,7 +18,7 @@ Get the tool:
 ```shell
 wget -O split-encrypt.php https://github.com/GramThanos/PHP-Split-Encrypt/releases/download/v0.1/split-encrypt.php
 ```
-
+Then pack the code in `input.php` and export it to `output.php`:
 ```shell
 php split-encrypt.php input.php output.php
 ```
