@@ -36,7 +36,7 @@ if (!$code) {
 $code = explode("SPLIT&ENCRYPTme", $code);
 if (count($code) == 1) {
 	echo("No SPLIT&ENCRYPTme flag found. Packing the whole code...\n");
-	$code = array('// ', $code[0]);
+	$code = array("<?php\n// ", "?>" . $code[0]);
 }
 // Encrypt code
 $hash = hash('sha256', $password, true);
