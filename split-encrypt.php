@@ -1,5 +1,5 @@
 <?php
-// Split & Encrypt
+// Split & Encrypt v0.1
 // Copyright (C) 2020 GramThanos
 //
 // This code splits the given PHP code on the SPLIT&ENCRYPTme flag and 
