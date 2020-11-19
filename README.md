@@ -16,18 +16,18 @@ do not use this tool.
 ## Excecution
 Get the tool:
 ```shell
-wget -O splite&encrypt.php https://raw.githubusercontent.com/GramThanos/PHP-Split-Encrypt/main/splite%26encrypt.php
+wget -O split-encrypt.php https://raw.githubusercontent.com/GramThanos/PHP-Split-Encrypt/main/split-encrypt.php
 ```
 
 ```shell
-php splite&encrypt.php input.php output.php
+php split-encrypt.php input.php output.php
 ```
 
 ## Example usage
 Pack the whole code:
 ```shell
 gramthanos:~$ echo '<?php echo("Hello world!\n");' > input.php
-gramthanos:~$ php splite&encrypt.php input.php output.php
+gramthanos:~$ php split-encrypt.php input.php output.php
 Insert password [banana]:
 No SPLIT&ENCRYPTme flag found. Packing the whole code...
 Saved as output.php
@@ -51,7 +51,7 @@ Pack second half of a code:
 gramthanos:~$ echo '<?php echo("Hello ");
 > // SPLIT&ENCRYPTme
 > echo("world!\n");' > input.php
-gramthanos:~$ php splite&encrypt.php input.php output.php
+gramthanos:~$ php split-encrypt.php input.php output.php
 Insert password [banana]:
 Saved as output.php
 gramthanos:~$ cat output.php
