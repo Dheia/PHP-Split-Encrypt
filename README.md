@@ -13,7 +13,7 @@ for any actions performed using this tool.  The author accepts no liability
 for damage caused by this tool.  If these terms are not acceptable to you, then
 do not use this tool.
 
-## Excecution
+## Execution
 Get the tool:
 ```shell
 wget -O split-encrypt.php https://github.com/GramThanos/PHP-Split-Encrypt/releases/download/v0.1/split-encrypt.php
